@@ -1,0 +1,777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KustomizationDetail renders 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+    <div>
+      <div
+        class="sc-iBPRYJ sc-iqHYGH rMTDD"
+      >
+        <div
+          class="sc-dlfnbm emcvKi"
+        >
+          <nav
+            class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+          >
+            <ol
+              class="MuiBreadcrumbs-ol"
+            >
+              <li
+                class="MuiBreadcrumbs-li"
+              >
+                <a
+                  class="sc-gKsewC"
+                  href="/kustomizations?context=my-context&namespace=default"
+                >
+                  <h2>
+                    Kustomizations
+                  </h2>
+                </a>
+              </li>
+              <li
+                aria-hidden="true"
+                class="MuiBreadcrumbs-separator"
+              >
+                /
+              </li>
+              <li
+                class="MuiBreadcrumbs-li"
+              >
+                <div
+                  class="sc-dlfnbm eIFobp"
+                >
+                  <h2>
+                    my-kustomization
+                  </h2>
+                </div>
+              </li>
+            </ol>
+          </nav>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Sync
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-1"
+        >
+          <div
+            class="sc-pFZIQ"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+            >
+              <div
+                class="sc-fubCfw eQvqYT"
+              >
+                <h3>
+                  Info
+                </h3>
+              </div>
+              <div
+                class="MuiCardContent-root"
+              >
+                <div>
+                  <div
+                    class="sc-jSgupP crqFgI"
+                    role="list"
+                  >
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td
+                            role="listitem"
+                          >
+                            <div
+                              aria-label="Source"
+                              class="sc-hKgILt ctfbPn"
+                            >
+                              Source
+                            </div>
+                            <div
+                              class="sc-eCssSg"
+                            >
+                              <a
+                                class="sc-gKsewC"
+                                href="/sources_detail?context=my-context&namespace=default&sourceId=my-source&sourceType=git"
+                              >
+                                my-source
+                              </a>
+                            </div>
+                          </td>
+                          <td
+                            role="listitem"
+                          >
+                            <div
+                              aria-label="Namespace"
+                              class="sc-hKgILt ctfbPn"
+                            >
+                              Namespace
+                            </div>
+                            <div
+                              class="sc-eCssSg"
+                            >
+                              default
+                            </div>
+                          </td>
+                          <td
+                            role="listitem"
+                          >
+                            <div
+                              aria-label="Path"
+                              class="sc-hKgILt ctfbPn"
+                            >
+                              Path
+                            </div>
+                            <div
+                              class="sc-eCssSg"
+                            >
+                              /k8s
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            role="listitem"
+                          >
+                            <div
+                              aria-label="Interval"
+                              class="sc-hKgILt ctfbPn"
+                            >
+                              Interval
+                            </div>
+                            <div
+                              class="sc-eCssSg"
+                            >
+                              1m
+                            </div>
+                          </td>
+                          <td
+                            role="listitem"
+                          >
+                            <div
+                              aria-label="Prune"
+                              class="sc-hKgILt ctfbPn"
+                            >
+                              Prune
+                            </div>
+                            <div
+                              class="sc-eCssSg"
+                            >
+                              false
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-2"
+        >
+          <div
+            class="sc-pFZIQ"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+            >
+              <div
+                class="sc-fubCfw eQvqYT"
+              >
+                <h3>
+                  Conditions
+                </h3>
+              </div>
+              <div
+                class="MuiCardContent-root"
+              >
+                <div>
+                  <div
+                    class="MuiTableContainer-root"
+                  >
+                    <table
+                      class="MuiTable-root"
+                    >
+                      <thead
+                        class="MuiTableHead-root"
+                      >
+                        <tr
+                          class="MuiTableRow-root MuiTableRow-head"
+                        >
+                          <th
+                            class="MuiTableCell-root MuiTableCell-head"
+                            scope="col"
+                          >
+                            Type
+                          </th>
+                          <th
+                            class="MuiTableCell-root MuiTableCell-head"
+                            scope="col"
+                          >
+                            Status
+                          </th>
+                          <th
+                            class="MuiTableCell-root MuiTableCell-head"
+                            scope="col"
+                          >
+                            Timestamp
+                          </th>
+                          <th
+                            class="MuiTableCell-root MuiTableCell-head"
+                            scope="col"
+                          >
+                            Reason
+                          </th>
+                          <th
+                            class="MuiTableCell-root MuiTableCell-head"
+                            scope="col"
+                          >
+                            Message
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody
+                        class="MuiTableBody-root"
+                      />
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-3"
+        >
+          <div
+            class="sc-pFZIQ"
+          >
+            <div
+              class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+            >
+              <div
+                class="sc-fubCfw eQvqYT"
+              >
+                <h3>
+                  Reconciled Objects
+                </h3>
+              </div>
+              <div
+                class="MuiCardContent-root"
+              >
+                <div>
+                  <div
+                    class="MuiTabs-root"
+                  >
+                    <div
+                      class="MuiTabs-scroller MuiTabs-fixed"
+                      style="overflow: hidden;"
+                    >
+                      <div
+                        class="MuiTabs-flexContainer"
+                        role="tablist"
+                      >
+                        <button
+                          aria-controls="mui-p-50000-P-graph"
+                          aria-selected="true"
+                          class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected"
+                          id="mui-p-50000-T-graph"
+                          role="tab"
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span
+                            class="MuiTab-wrapper"
+                          >
+                            Graph
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                        <button
+                          aria-controls="mui-p-50000-P-table"
+                          aria-selected="false"
+                          class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+                          id="mui-p-50000-T-table"
+                          role="tab"
+                          tabindex="-1"
+                          type="button"
+                        >
+                          <span
+                            class="MuiTab-wrapper"
+                          >
+                            Table
+                          </span>
+                          <span
+                            class="MuiTouchRipple-root"
+                          />
+                        </button>
+                      </div>
+                      <span
+                        class="PrivateTabIndicator-root-4 PrivateTabIndicator-colorSecondary-6 MuiTabs-indicator"
+                        style="left: 0px; width: 0px;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    aria-labelledby="mui-p-50000-T-graph"
+                    class="MuiTabPanel-root"
+                    id="mui-p-50000-P-graph"
+                    role="tabpanel"
+                  >
+                    <div
+                      class="sc-kEjbxe fvZZpi"
+                    >
+                      <div
+                        class="sc-jrAGrp dTbqnH"
+                      >
+                        <svg
+                          height="960"
+                          width="960"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-labelledby="mui-p-50000-T-table"
+                    class="MuiTabPanel-root"
+                    hidden=""
+                    id="mui-p-50000-P-table"
+                    role="tabpanel"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-iBPRYJ sc-iqHYGH rMTDD"
+    >
+      <div
+        class="sc-dlfnbm emcvKi"
+      >
+        <nav
+          class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+        >
+          <ol
+            class="MuiBreadcrumbs-ol"
+          >
+            <li
+              class="MuiBreadcrumbs-li"
+            >
+              <a
+                class="sc-gKsewC"
+                href="/kustomizations?context=my-context&namespace=default"
+              >
+                <h2>
+                  Kustomizations
+                </h2>
+              </a>
+            </li>
+            <li
+              aria-hidden="true"
+              class="MuiBreadcrumbs-separator"
+            >
+              /
+            </li>
+            <li
+              class="MuiBreadcrumbs-li"
+            >
+              <div
+                class="sc-dlfnbm eIFobp"
+              >
+                <h2>
+                  my-kustomization
+                </h2>
+              </div>
+            </li>
+          </ol>
+        </nav>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Sync
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-1"
+      >
+        <div
+          class="sc-pFZIQ"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+          >
+            <div
+              class="sc-fubCfw eQvqYT"
+            >
+              <h3>
+                Info
+              </h3>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <div>
+                <div
+                  class="sc-jSgupP crqFgI"
+                  role="list"
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td
+                          role="listitem"
+                        >
+                          <div
+                            aria-label="Source"
+                            class="sc-hKgILt ctfbPn"
+                          >
+                            Source
+                          </div>
+                          <div
+                            class="sc-eCssSg"
+                          >
+                            <a
+                              class="sc-gKsewC"
+                              href="/sources_detail?context=my-context&namespace=default&sourceId=my-source&sourceType=git"
+                            >
+                              my-source
+                            </a>
+                          </div>
+                        </td>
+                        <td
+                          role="listitem"
+                        >
+                          <div
+                            aria-label="Namespace"
+                            class="sc-hKgILt ctfbPn"
+                          >
+                            Namespace
+                          </div>
+                          <div
+                            class="sc-eCssSg"
+                          >
+                            default
+                          </div>
+                        </td>
+                        <td
+                          role="listitem"
+                        >
+                          <div
+                            aria-label="Path"
+                            class="sc-hKgILt ctfbPn"
+                          >
+                            Path
+                          </div>
+                          <div
+                            class="sc-eCssSg"
+                          >
+                            /k8s
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          role="listitem"
+                        >
+                          <div
+                            aria-label="Interval"
+                            class="sc-hKgILt ctfbPn"
+                          >
+                            Interval
+                          </div>
+                          <div
+                            class="sc-eCssSg"
+                          >
+                            1m
+                          </div>
+                        </td>
+                        <td
+                          role="listitem"
+                        >
+                          <div
+                            aria-label="Prune"
+                            class="sc-hKgILt ctfbPn"
+                          >
+                            Prune
+                          </div>
+                          <div
+                            class="sc-eCssSg"
+                          >
+                            false
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-2"
+      >
+        <div
+          class="sc-pFZIQ"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+          >
+            <div
+              class="sc-fubCfw eQvqYT"
+            >
+              <h3>
+                Conditions
+              </h3>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <div>
+                <div
+                  class="MuiTableContainer-root"
+                >
+                  <table
+                    class="MuiTable-root"
+                  >
+                    <thead
+                      class="MuiTableHead-root"
+                    >
+                      <tr
+                        class="MuiTableRow-root MuiTableRow-head"
+                      >
+                        <th
+                          class="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Type
+                        </th>
+                        <th
+                          class="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Status
+                        </th>
+                        <th
+                          class="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Timestamp
+                        </th>
+                        <th
+                          class="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Reason
+                        </th>
+                        <th
+                          class="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Message
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="MuiTableBody-root"
+                    />
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-3"
+      >
+        <div
+          class="sc-pFZIQ"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+          >
+            <div
+              class="sc-fubCfw eQvqYT"
+            >
+              <h3>
+                Reconciled Objects
+              </h3>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <div>
+                <div
+                  class="MuiTabs-root"
+                >
+                  <div
+                    class="MuiTabs-scroller MuiTabs-fixed"
+                    style="overflow: hidden;"
+                  >
+                    <div
+                      class="MuiTabs-flexContainer"
+                      role="tablist"
+                    >
+                      <button
+                        aria-controls="mui-p-50000-P-graph"
+                        aria-selected="true"
+                        class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected"
+                        id="mui-p-50000-T-graph"
+                        role="tab"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiTab-wrapper"
+                        >
+                          Graph
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                      <button
+                        aria-controls="mui-p-50000-P-table"
+                        aria-selected="false"
+                        class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+                        id="mui-p-50000-T-table"
+                        role="tab"
+                        tabindex="-1"
+                        type="button"
+                      >
+                        <span
+                          class="MuiTab-wrapper"
+                        >
+                          Table
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                    <span
+                      class="PrivateTabIndicator-root-4 PrivateTabIndicator-colorSecondary-6 MuiTabs-indicator"
+                      style="left: 0px; width: 0px;"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-labelledby="mui-p-50000-T-graph"
+                  class="MuiTabPanel-root"
+                  id="mui-p-50000-P-graph"
+                  role="tabpanel"
+                >
+                  <div
+                    class="sc-kEjbxe fvZZpi"
+                  >
+                    <div
+                      class="sc-jrAGrp dTbqnH"
+                    >
+                      <svg
+                        height="960"
+                        width="960"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-labelledby="mui-p-50000-T-table"
+                  class="MuiTabPanel-root"
+                  hidden=""
+                  id="mui-p-50000-P-table"
+                  role="tabpanel"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
